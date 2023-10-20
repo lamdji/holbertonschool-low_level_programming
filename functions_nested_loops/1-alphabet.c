@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * main - a function that prints the alphabet followed by a new line
+ * print_alphabet - a function that prints the alphabet followed by a new line
  *
  * Return: nothing
  */
 void print_alphabet(void)
 {
 	char c;
-	
+
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
