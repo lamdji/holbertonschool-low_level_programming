@@ -1,21 +1,24 @@
 #include "main.h"
-#include "main.c"
-
 /**
  * main - a function that prints the alphabet followed by a new line
  *
- * Return: 0 (Always)
+ * Return: nothing
  */
-	int main(void)
+void print_alphabet(void)
 {
-	char a = 'a';
-	char z = 'z';
+	/**char c = 'a';
 
-	for (char abc = a ; abc <= z; abc++)
+	while(c <= 'z')
 	{
-	_putchar(abc);
+		putchar(c);
+		c++;
 	}
-
+	_putchar('\n');*/
+	char c;
+	
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
 	_putchar('\n');
-	return (0);
 }
