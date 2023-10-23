@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * reset_to_98 - takes a pointer to an int and updates
  * @n: Pointeur vers un entier dont la valeur doit être réinitialisée
- * reset_to_98 - Réinitialise la valeur pointée par le pointeur à 98
+ *
  * Return: Always 0.
  */
 void reset_to_98(int *n)
