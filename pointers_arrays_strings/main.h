@@ -1,3 +1,5 @@
+#ifndef _MAIN_H_
+#define _MAIN_H_
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,3 +10,15 @@ int main(void);
 int _strlen(char *s);
 void _puts(char *str);
 int _putchar(char c);
+void print_rev(char *s);
+
+
+
+
+
+
+
+
+
+
+#endif

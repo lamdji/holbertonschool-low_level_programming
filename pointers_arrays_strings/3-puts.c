@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _puts - write a string to stdout
- * @str - pointer to the string
+ * _puts - function that prints a string to stdout
+ * @str - string to print
  */
 
 void _puts(char *str)
@@ -13,9 +13,9 @@ void _puts(char *str)
 	while (str[i] != '\0')
 
 	{
-	_putchar(str[i]);
+	putchar(str[i]);
 
 	i++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
