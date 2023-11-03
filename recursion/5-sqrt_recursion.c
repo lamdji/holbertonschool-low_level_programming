@@ -3,7 +3,7 @@
  * _sqrt_recursive - calculates i**i to check with n.
  * @n: base number
  * @i: iterator numbe
- * Return: _sqrt_recursive(n, i + 1)r
+ * Return: _sqrt_recursive(n, i + 1)
  */
 
 int _sqrt_recursive(int n, int i)
